@@ -1,0 +1,155 @@
+@font-face {
+	font-family: CameraObscura;
+	src: url('CameraObscura.otf') format('opentype');
+}
+
+body, h1, h2, h3, p {
+	margin: 0;
+	padding: 0;
+    background-color: #FFEFC7;
+}
+
+h1 {
+	font-family: 'CameraObscura';
+	color: #DD1F1F;
+	font-size: 200px;
+	
+	text-align: center;
+	display:inline-flex;
+	gap: 100px;
+	align-items: baseline;
+	margin-top: 20vh;
+	
+}
+
+.name {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 100px;
+	column-gap: 50px;
+	
+}
+
+h2 {
+	color: #0D113F;
+	font-family: 'Elza Text Medium';
+	font-size: 50px;
+	text-transform:lowercase;
+		
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+	margin-bottom: 200px;
+}
+
+.note {
+	color: #938C6F;
+	font-family: 'Elza Text Medium';
+	font-size: 20px;
+	text-transform:lowercase;
+	
+	margin-top: 20px;
+	margin-bottom: 100px;
+
+}
+
+a {
+	font-family: 'CameraObscura';
+	color: #0D113F;
+	font-size: 2vw;
+	
+	text-decoration: none;
+
+}
+
+.button {
+	display: flex;
+    justify-content: right; 
+    align-items: center; 
+
+
+}
+.btext {
+		
+	font-family: 'CameraObscura';
+	text-transform: uppercase;
+	color: #FFEFC7;
+	font-size: 25px;
+}
+
+button {
+	
+	font-family: 'Elza Text Medium';
+	text-transform:lowercase;
+	
+	color: #FFEFC7;
+	background-color: #DD1F1F;
+	border: none;
+	
+	padding: 10px 20px;
+	box-sizing: border-box;
+	outline: none;
+	line-height: 1.5;
+}
+
+.s2container {
+    justify-content: space-between;
+    margin: auto; 
+    padding: 10px;
+}
+
+.s2 h4 {
+    align: "center";
+    margin-bottom: 10px; 
+	font-family: 'CameraObscura';
+	color: #DD1F1F;
+    font-size: 40px;
+}
+
+
+.s2 a {
+	font-family: 'Elza Text Medium';
+	text-transform:lowercase;
+	color: #0D113F;
+	
+    line-height: 1.6;
+    font-size: 40px;
+
+}
+
+
+.s1container {
+    display: flex;
+    justify-content: space-between;
+    margin: auto; 
+    padding: 10px;
+}
+
+.s1 {
+    flex: 1; 
+    margin: 30px; 
+    padding: 20px; 
+}
+
+.s1 h4 {
+    margin-bottom: 10px; 
+	font-family: 'CameraObscura';
+	color: #0D113F;    
+	font-size: 20px;
+ 
+}
+
+.s1 p {
+	font-family: 'Elza Text Medium';
+	color: #938C6F;
+	
+    line-height: 1.6; 
+}
+
+p {
+	font-family: 'Elza Text Medium';
+	color: #938C6F;
+	font-size: 20px;
+    line-height: 1.6; 
+}

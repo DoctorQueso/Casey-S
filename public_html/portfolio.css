@@ -1,0 +1,248 @@
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+body, h1, h2, h3, p {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Acumin Variable Concept', sans-serif;
+	background-color: #fff;
+	color: #333;
+	margin: 0;
+	padding: 12px;
+	font-size: 12px; 
+}
+
+header {
+	background-color: #f8f8f8; 
+	padding: 20px 0; 
+	text-align: center; 
+}
+
+
+h1 {
+  font-family: 'DIN Condensed', sans-serif;
+  margin-top: 50px;
+  font-size: 60px; 
+  color: #000;
+}
+
+p {
+  font-family: 'Acumin Variable Concept', sans-serif;
+  font-size: 16px; 
+  color: #C4C4C4;
+}
+
+.project-container h2 {
+  color: #ffffff; 
+  font-size: 60px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin-bottom: 80px;
+}
+
+
+.project-container {
+  display: flex;
+  justify-content: space-between;
+  margin: auto; 
+  padding: 10px;
+}
+
+
+img {
+	align: center;
+	width: 50%;
+	height: auto;
+}
+
+.naturalist {
+  margin: 30px; 
+  padding: 20px; 
+  background-color: #f8f8f8; 
+  background-image: url("portfolio/naturalist.jpg");
+  
+  min-height: 1000px;
+  max-height: 1000px;
+	
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+
+.afm {
+  margin: 30px; 
+  padding: 20px; 
+  background-color: #f8f8f8; 
+  background-image: url("portfolio/anotherfurnituremod.jpg");
+  
+  min-height: 1000px;
+  max-height: 1000px;
+	
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+.omnis {
+  margin: 30px; 
+  padding: 20px; 
+  background-color: #f8f8f8; 
+  background-image: url("portfolio/omnis.png");
+  
+  min-height: 1000px;
+  max-height: 1000px;
+	
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+.skyblock {
+  margin: 30px; 
+  padding: 20px; 
+  background-color: #f8f8f8; 
+  background-image: url("portfolio/skyblock.png");
+  
+  min-height: 1000px;
+  max-height: 1000px;
+	
+  background-position: center;
+  background-attachment: fixed;
+  background-size: auto;
+  background-repeat: no-repeat;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+.weapons {
+  margin: 30px; 
+  padding: 20px; 
+  background-color: #f8f8f8; 
+  background-image: url("portfolio/weapons.png");
+  
+  min-height: 1000px;
+  max-height: 1000px;
+	
+  background-position: center;
+  background-attachment: fixed;
+  background-size: auto;
+  background-repeat: no-repeat;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+.tkweps {
+  margin: 30px; 
+  padding: 20px; 
+  background-color: #f8f8f8; 
+  background-image: url("portfolio/3kweps.png");
+  
+  min-height: 1000px;
+  max-height: 1000px;
+	
+  background-position: center;
+  background-attachment: fixed;
+  background-size: auto;
+  background-repeat: no-repeat;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+.drlupo {
+  margin: 30px; 
+  padding: 20px; 
+  background-color: #f8f8f8; 
+  background-image: url("service/bas2.png");
+  
+  min-height: 1000px;
+  max-height: 1000px;
+  align-content: center;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+.bigevent {
+  margin: 30px; 
+  padding: 20px; 
+  background-color: #f8f8f8; 
+  background-image: url("service/bigevent.jfif");
+  
+  min-height: 1000px;
+  max-height: 1000px;
+  align-content: center;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+
+.project-container p {
+  color: #ffffff;
+  font-family: 'Acumin Variable Concept', sans-serif;
+  font-size: 24px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin-top: 200px;
+
+}
+
+.project-container h4 {
+  margin-bottom: 10px; 
+  font-family: 'DIN Condensed', sans-serif;
+  font-size: 20px;
+  color: #333; 
+}
+
+.project p {
+  font-family: 'Acumin Variable Concept', sans-serif;
+  color: #808080; 
+  line-height: 1.6; 
+}
+
+.s2container {
+  justify-content: space-between;
+  margin: auto; 
+  padding: 10px;
+  background-color: #f8f8f8; 
+}
+
+.s2 h4 {
+  align: "center";
+  margin-bottom: 10px; 
+  font-family: 'DIN Condensed', sans-serif;
+  font-size: 40px;
+  color: #333; 
+}
+
+
+.s2 p {
+  font-family: 'Acumin Variable Concept', sans-serif;
+  color: #808080; 
+  font-size: 20px;
+  line-height: 1.6; 
+}
+.s2 a {
+  font-family: 'Acumin Variable Concept', sans-serif;
+  color: #808080; 
+  line-height: 1.6; 
+}

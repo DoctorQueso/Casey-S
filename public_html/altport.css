@@ -1,0 +1,263 @@
+@font-face {
+	font-family: CameraObscura;
+	src: url('CameraObscura.otf') format('opentype');
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+body, h1, h2, h3, p {
+	margin: 0;
+	padding: 0;
+
+}
+
+body {
+	font-family: 'Elza Text Medium';
+	
+    background-color: #FFEFC7;
+	margin: 0;
+	padding: 12px;
+	font-size: 12px; 
+}
+
+header {
+	background-color: #FFEFC7; 
+	padding: 20px 0; 
+	text-align: center; 
+}
+
+a {
+	font-family: 'CameraObscura';
+    text-transform: uppercase;
+	
+	color: #0D113F;
+	font-size: 2vw;
+	
+	text-decoration: none;
+}
+
+h1 {
+  font-family: 'CameraObscura';
+  text-transform: uppercase;
+  margin-top: 50px;
+  font-size: 60px; 
+  color: #DD1F1F;
+}
+
+p {
+  font-family: 'Elza Text Medium';
+	
+  font-size: 16px; 
+  color: #938C6F;
+}
+
+.project-container h2 {
+  color: #0D113F; 
+  font-size: 60px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin-bottom: 80px;
+}
+
+
+.project-container {
+  display: inline-block;
+  justify-content: space-between;
+
+  margin: auto; 
+  padding: 10px;
+  vertical-align: top;
+}
+
+
+img {
+	align: center;
+	width: 50%;
+	height: auto;
+}
+
+.naturalist {
+  margin: 30px; 
+  padding: 20px; 
+  background-image: url("portfolio/naturalist.jpg");
+  
+  min-height: 1000px;
+  max-height: 1000px;
+	
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+
+.afm {
+  margin: 30px; 
+  padding: 20px; 
+  background-image: url("portfolio/anotherfurnituremod.jpg");
+  
+  min-height: 1000px;
+  max-height: 1000px;
+	
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+.omnis {
+  margin: 30px; 
+  padding: 20px; 
+  background-image: url("portfolio/omnis.png");
+  
+  min-height: 1000px;
+  max-height: 1000px;
+	
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+.skyblock {
+  margin: 30px; 
+  padding: 20px; 
+  background-image: url("portfolio/skyblock.png");
+  
+  min-height: 1000px;
+  max-height: 1000px;
+	
+  background-position: center;
+  background-attachment: fixed;
+  background-size: auto;
+  background-repeat: no-repeat;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+.weapons {
+  margin: 30px; 
+  padding: 20px; 
+  background-image: url("portfolio/weapons.png");
+  
+  min-height: 1000px;
+  max-height: 1000px;
+	
+  background-position: center;
+  background-attachment: fixed;
+  background-size: auto;
+  background-repeat: no-repeat;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+.tkweps {
+  margin: 30px; 
+  padding: 20px; 
+  background-image: url("portfolio/3kweps.png");
+  
+  min-height: 1000px;
+  max-height: 1000px;
+	
+  background-position: center;
+  background-attachment: fixed;
+  background-size: auto;
+  background-repeat: no-repeat;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+.drlupo {
+  margin: 30px; 
+  padding: 20px; 
+  background-image: url("service/bas2.png");
+  
+  min-height: 1000px;
+  max-height: 1000px;
+  align-content: center;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+
+.bigevent {
+  margin: 30px; 
+  padding: 20px; 
+  background-image: url("service/bigevent.jfif");
+  
+  min-height: 1000px;
+  max-height: 1000px;
+  align-content: center;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+.project-container p {
+  color: #FFEFC7;
+  font-family: 'Elza Text Medium';
+	
+  font-size: 24px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin-top: 200px;
+
+}
+
+.project-container h4 {
+  margin-bottom: 10px; 
+  font-family: 'CameraObscura';
+  font-size: 20px;
+  color: #333; 
+}
+
+.project p {
+  font-family: 'Elza Text Medium';
+	
+  color: #0D113F; 
+  line-height: 1.6; 
+}
+
+.s2container {
+  justify-content: space-between;
+  margin: auto; 
+  padding: 10px;
+}
+
+.s2 h4 {
+  align: "center";
+  margin-bottom: 10px; 
+  font-family: 'CameraObscura';
+  font-size: 40px;
+  color: #333; 
+}
+
+
+.s2 p {
+	font-family: 'Elza Text Medium';
+	text-transform:lowercase;
+	
+  color: #808080; 
+  font-size: 20px;
+  line-height: 1.6; 
+}
+.s2 a {
+	font-family: 'Elza Text Medium';
+	text-transform:lowercase;
+	
+  color: #808080; 
+  line-height: 1.6; 
+}

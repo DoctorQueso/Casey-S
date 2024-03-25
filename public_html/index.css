@@ -1,0 +1,129 @@
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+body, h1, h2, h3, p {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Acumin Variable Concept', sans-serif;
+	background-color: #fff;
+	color: #333;
+	margin: 0;
+	padding: 12px;
+	font-size: 12px; 
+}
+
+.name {
+	font-family: 'DIN Condensed', sans-serif;
+	font-size: 50px;
+	line-height: 1; 
+	text-align: left; 
+}
+
+header {
+	background-color: #f8f8f8; 
+	padding: 20px 0; 
+	text-align: center; 
+}
+.button {
+	text-align: right;
+	color: #C8C7C7;
+	font-family: 'DIN Condensed', sans-serif;
+	cursor: pointer;
+	height: 30px;
+		
+}
+h1 {
+  margin-top: 50px;
+  font-size: 200px; 
+  color: #000;
+}
+
+h2 {
+  font-family: 'DIN Condensed', sans-serif;
+
+  color: #555; 
+  font-size: 60px;
+  margin-bottom: 80px;
+}
+
+.s1container {
+  display: flex;
+  justify-content: space-between;
+  margin: auto; 
+  padding: 10px;
+  background-color: #f8f8f8; 
+}
+
+.s1 {
+  flex: 1; 
+  margin: 30px; 
+  padding: 20px; 
+  background-color: #f8f8f8; 
+}
+
+.s1 h4 {
+  margin-bottom: 10px; 
+  font-family: 'DIN Condensed', sans-serif;
+  font-size: 20px;
+  color: #333; 
+}
+
+.s1 p {
+  font-family: 'Acumin Variable Concept', sans-serif;
+  color: #808080; 
+  line-height: 1.6; 
+}
+
+
+.s2container {
+  justify-content: space-between;
+  margin: auto; 
+  padding: 10px;
+  background-color: #f8f8f8; 
+}
+
+.s2 h4 {
+  align: "center";
+  margin-bottom: 10px; 
+  font-family: 'DIN Condensed', sans-serif;
+  font-size: 40px;
+  color: #333; 
+}
+
+
+.s2 p {
+  font-family: 'Acumin Variable Concept', sans-serif;
+  color: #808080; 
+  font-size: 20px;
+  line-height: 1.6; 
+}
+.s2 a {
+  font-family: 'Acumin Variable Concept', sans-serif;
+  color: #808080; 
+  line-height: 1.6; 
+}
+
+footer {
+  background-color: #f8f8f8;
+  padding: 10px 0; 
+  text-align: center;
+}
+
+.btext {
+	color :"#C8C7C7";
+  	font-family: 'Acumin Variable Concept', sans-serif;
+
+}
+
+p {
+  font-family: 'Acumin Variable Concept', sans-serif;
+  color: #808080; 
+  font-size: 20px;
+  line-height: 1.6; 
+}
